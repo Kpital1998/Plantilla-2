@@ -1,2 +1,6 @@
 # Plantilla-2
-Plantilla
+Plantilla <br>
+Hecha en: <br>
+HTML <br>
+CSS <br>
+Vue 
