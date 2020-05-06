@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1050vh;
+}
+
+header{
+    background: url("../img/animal.jpg") no-repeat;
+    background-size: cover;
+    height: 450px; 
+} 
+
+header menu{
+    text-align: right;
+    background: black;
+    list-style: none;
+    padding: 25px;
+    position: fixed;
+    max-width: 1050vh;
+    width: 100%;
+}
+
+header menu ul{
+    margin-right: 35px;
+}
+
+header menu ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+header menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 22px;
+    transition: .4s;
+}
+
+header menu ul li a:hover{
+    color: blue;
+    transition: .4s;
+}
+
+header menu input[type="text"]{ 
+    padding: 15px 120px;
+    border-radius: 20px;
+    border: 0;
+}
+
+header i{
+    margin-top: 180px;
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+header h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header p{
+    width: 390px;
+    font-size: 22px;
+    color: white;
+}
+
+header button{
+    padding: 18px 25px;
+    background: #ACFA58;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: 17px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+header button:hover{
+    transition: .4s;
+    background: #01DF01;
+}
+
+/*------------------------------------------------------------*/
+
+#section2 h1{
+    margin-top: 50px;
+}
+
+#section2 ul li{
+    display: inline-block;
+    margin-left: -10px;
+    border: 1px solid #01DF01;
+    padding: 12px 0px;
+    margin: 10px 10px;
+}
+
+#section2 img{
+    width: 170px;
+    height: 170px;
+}
+
+#section2 p{
+    width: 250px;
+}
+
+/*----------------------------------------------------*/
+
+#section3{
+    margin-top: 70px;
+}
+
+#section3 p{
+    margin-top: 30px;
+    width: 770px;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+/*----------------------------------------------------*/
+
+footer{
+    background: gray;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+footer a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}

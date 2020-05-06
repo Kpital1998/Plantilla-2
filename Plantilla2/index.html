@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Index</title>
+</head>
+<script src="js/vue.js"></script>
+<body>
+    <div class="container">
+        <header>
+            <menu>
+                <ul>
+                    <li>
+                        <form action="">
+                            <input type="text" name="" id="">
+                        </form> 
+                    </li> 
+                    <li>
+                        <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Item 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Item 3</a>
+                    </li>
+                </ul>
+            </menu>
+            <i class="fas fa-chevron-left" style="float: left; margin-left: 25px;" v-on:click="conteo--"></i>
+            <i class="fas fa-chevron-right" style="float: right; margin-right: 25px;" v-on:click="conteo++"></i>
+            <center>
+                <br><br><br><br><br><br><br><br><br>
+                <h1>Titulo</h1>
+                <p>
+                    {{mensaje}}
+                </p>
+                <br><br><br><br>
+                <button>Sign In</button>
+            </center>
+        </header> 
+        <section id="section2">
+            <center>
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <br><br><br>
+                <ul>
+                    <li>
+                        <img src="img/img1.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                        <img src="img/img2.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                        <img src="img/img3.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                        <img src="img/img4.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                        <img src="img/img1.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                        <img src="img/img2.jpg" alt=""><br>
+                        <h3>Lorem ipsum dolor sit amet</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                </ul>
+            </center>
+        </section>
+        <section id="section3">
+            <center>
+                <h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </center>
+            
+        </section>
+        <footer>
+            <ul>
+                <li v-for="datos in categorias"><a href="#"> {{datos}} </a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/efectos.js"></script>
+</body>
+</html>
